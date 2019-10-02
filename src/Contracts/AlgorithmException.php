@@ -12,4 +12,5 @@ use \Exception;
  */
 class AlgorithmException extends Exception
 {
+    const SEARCH_NOT_FOUND_MESSAGE = "%d not found in [%s]";
 }
