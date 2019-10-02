@@ -1,0 +1,28 @@
+{
+    "name": "danieltoader/algos-php",
+    "description": "Algorithm implementations using PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Toader",
+            "email": "developer@danieltoader.com"
+        }
+    ],
+    "keywords": [
+        "algorithm"
+    ],
+    "require": {
+        "php": "7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Algos\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Benchmarks\\": "benchmarks",
+            "Tests\\": "tests"
+        }
+    }
+}
